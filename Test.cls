@@ -11,6 +11,7 @@ Method Send(pRequest As EnsLib.EDI.XML.Document, Output pResponse As Ens.StringR
 {
 	;进行测试
 	; 再次进行测试
+	; 再次测试
 	Quit $$$ERROR($$$NotImplemented)
 }
 
