@@ -16,7 +16,7 @@ Property Adapter As EnsLib.SOAP.OutboundAdapter;
 
 Parameter INVOCATION = "Queue";
 
-/// 获取消息内容方法
+/// 获取消息内容的的方法;
 Method GetMessageBodyBO(pInput As Ens.StringRequest, Output pResponse As Ens.StringResponse) As %Status
 {
 	Set Util=##class(JHIPLIB.Util.ClassAndXML).%New()
